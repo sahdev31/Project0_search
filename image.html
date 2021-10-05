@@ -1,47 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Google</title>
-        <link rel="stylesheet" href="/style.css">
+        <title>Google Images</title>
+        <link rel="stylesheet" href="./image.css">
         <link rel="icon" href="https://cdn.freebiesupply.com/logos/large/2x/google-g-2015-logo-png-transparent.png" type="image/icon type">
-
+        <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/2674a37913.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <div class="header">
             <div class="navLinks">
                 <ul>
-                    <li><a href="./index.html">Search</a></li>
+                    <li><a href="https://mail.google.com" style="color: white;"target="_blank" id="gmail">Sign In</a></li>
                     <li><a href="./advancesearch.html">Advance Search</a></li>
-                    <li><a href="https://mail.google.com" target="_blank" id="gmail">Sign In</a></li>
+                    <li><a href="./index.html">Search</a></li>
+                    
                 </ul>
             </div>
         </div>
         <div class="form">
             <span class="img">
-                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="GOOGLE">
+                <img src="./Screenshot 2021-10-05 121453.png" alt="GOOGLE">
             </span>    
             <form action="https://www.google.com/search" data-submitfalse="q" method="GET" name="f" role="search">
                 <input type="hidden" name="tbm" value="isch">
-                <input type="text" name="q" autofocus id="search">
-                <span id="submit">
-                    <input type="submit" value="Google Search">
-                    <input type="submit" value="I'm Feeling lucky" >
-                </span>
+                <i class="fas fa-search"></i>
+                <input type="text" name="q" autofocus id="search" >
             </form>
         </div>
         <div class="footer">
-            <div class="footer_links">
+            <div class="left_links">
                 <ul class="left">
                     <li><a href="#">About</a></li>
                     <li><a href="#">Advertising</a></li>
                     <li><a href="#">Business</a></li>
                     <li><a href="#">How Search works</a></li>
                 </ul>
+            <div class="right_links">
                 <ul class="right">
                     <li><a href="#">Privacy</a></li>
                     <li><a href="#">Terms</a></li>
                     <li><a href="#">Settings</a></li>
                 </ul>
+            </div>    
             </div>
         </div>
     </body>
